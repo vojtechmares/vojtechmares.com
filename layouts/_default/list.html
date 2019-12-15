@@ -9,7 +9,7 @@
                     <br>
                     tags: 
                     {{ range .Params.tags }}
-                    <a href="{{ (urlize (printf "tags/%s/" . )) | absLangURL }}">
+                    <a href="{{ (urlize (printf "tags/%s/" . )) }}">
                         #{{- . -}}
                     </a>
                     {{ end }}
