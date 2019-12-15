@@ -1,0 +1,13 @@
+<header>
+    {{ if not .IsHome }}
+        <nav>
+            <ul>
+                {{ range first $.Site.Params.showMenuItems $.Site.Menus.main }}
+                    {{ if not .HasChildren }}
+                        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                    {{ end }}
+                {{ end }}
+            </ul>
+        </nav>
+    {{ end }}
+</header>

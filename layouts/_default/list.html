@@ -1,0 +1,39 @@
+{{ define "main" }}
+    <main class="content">
+        <h1>{{ .Params.Title }}</h1>
+        {{ range (.Paginator 4).Pages.ByPublishDate.Reverse }}
+            <h1><a href="{{ .Permalink }}">{{ .Params.Title }}</a></h1>
+            <p>
+                <em>Written {{ .Date.Format "2006-01-02" }}</em> 
+                {{ if .Params.tags }}
+                    <br>
+                    tags: 
+                    {{ range .Params.tags }}
+                    <a href="{{ (urlize (printf "tags/%s/" . )) | absLangURL }}">
+                        #{{- . -}}
+                    </a>
+                    {{ end }}
+                {{ end }}
+            </p>
+            {{ if .Params.image }}
+                <div class="post-image">
+                    <img src="{{ .Params.image }}" />
+                </div>
+            {{ end }}
+            <p>
+                {{ if .Params.Description }}
+                    {{ .Params.Description | markdownify }}
+                {{ else if .Truncated }}
+                    {{ .Truncated }}
+                {{ end }}
+            </p>
+            <ul class="fancy-forward">
+                <li><a href="{{ .Permalink }}">Read more</a></li>
+            </ul>
+            <hr>
+        {{ end }}
+        {{ partial "pagination" . }}
+    </main>
+{{ end }}
+
+

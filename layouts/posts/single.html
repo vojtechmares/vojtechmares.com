@@ -1,0 +1,27 @@
+{{ define "main"}}
+    <main class="content">
+        <h1>{{ .Params.Title }}</h1>
+        <p><em>Written {{ .Date.Format "2006-01-02" }}</em></p>
+        {{ if .Params.image }}
+                <div class="post-image">
+                    <img src="{{ .Params.image }}" />
+                </div>
+        {{ end }}
+        <article>
+            {{ .Content }}
+        </article>
+        {{ if .Params.tags }}
+            <p>
+                <strong>tags:</strong>
+                {{ range .Params.tags }}
+                <a href="{{ (urlize (printf "tags/%s/" . )) | absLangURL }}">
+                    #{{- . -}}
+                </a>
+                {{ end }}
+            </p>
+        {{ end }}
+        <small>
+            Did you find a typo? Correct me on <a href="https://github.com/vojtamares/vojtamares.com">GitHub</a>!
+        </small>
+    </main>
+{{ end }}
