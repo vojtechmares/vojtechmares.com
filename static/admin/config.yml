@@ -27,11 +27,13 @@ collections:
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Image, name: image, widget: image}
+          - {label: "Body", name: "body", widget: "markdown"}
       - file: "content/about.md"
         label: "About Page"
         name: "about"
         fields:
           - {label: Title, name: title, widget: string}
+          - {label: "Body", name: "body", widget: "markdown"}
       - file: "content/posts/_index.md"
         label: "Post list page"
         name: "posts"

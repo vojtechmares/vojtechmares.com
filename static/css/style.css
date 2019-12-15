@@ -3,6 +3,7 @@ body {
     color: #ccc;
     font-family: "Fira Mono", monospace;
     line-height: 1.5em;
+    font-size: 1em;
 }
 header,main,aside,footer {
     display: block;
