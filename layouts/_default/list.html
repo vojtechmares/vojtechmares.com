@@ -2,7 +2,7 @@
     <main class="content">
         <h1>{{ .Title }}</h1>
         {{ range (.Paginator 4).Pages.ByPublishDate.Reverse }}
-            <h1><a href="{{ .RelPermalink }}">{{ .Params.Title }}</a></h1>
+            <h1><a href="{{ .Permalink }}">{{ .Params.Title }}</a></h1>
             <p>
                 <em>Written {{ .Date.Format "2006-01-02" }}</em> 
                 {{ if .Params.tags }}
@@ -28,7 +28,7 @@
                 {{ end }}
             </p>
             <ul class="fancy-forward">
-                <li><a href="{{ .RelPermalink }}">Read more</a></li>
+                <li><a href="{{ .Permalink }}">Read more</a></li>
             </ul>
             <hr>
         {{ end }}
