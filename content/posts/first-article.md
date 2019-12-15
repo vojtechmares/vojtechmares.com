@@ -1,9 +1,7 @@
 ---
-title: "First article: JAMStack"
-date: 2019-12-15T11:59:03+01:00
-draft: false
-description: First article at my blog and not just because I do not want to have an empty page here. Really, it is about JAMStack, static website, static website generator Hugo, Netlify and NetlifyCMS
-tags: [jamstack, hugo, static site, netlify, cms]
+title: 'First article: JAMStack'
+date: 2019-12-15T10:59:03.000Z
+image: /images/uploads/ssgs.png
 ---
 
 It took so long, but I am finally here, with my blog! Hooray! 
