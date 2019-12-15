@@ -1,16 +1,22 @@
-<meta charset="utf-8">
-<title>Vojtěch Mareš's blog</title>
-<link rel="stylesheet" type="text/css" href="/css/style.css" title="My Awesome Style">
-<meta name="description" content="Hello, my name is Vojtěch Mareš. I'm from Czech Republic and I am a software engineer, freelancer and for the most an university student  of computer science.">
-<meta name="keywords" content="software engineer, developer, programmer, vojtěch mareš, vojta mareš, freelancer, web developer">
-<meta name="author" content="Vojtěch Mareš">
-<meta name="og:title" content="Vojtěch Mareš - Software Engineer & Freelancer">
-<meta name="og:type" content="website">
-<meta name="og:image" content="https://vojtamares.com/me.jpg">
-<meta name="og:url" content="https://vojtamares.com">
-<meta name="og:description" content="Hello, my name is Vojtěch Mareš. I'm from Czech Republic and I am a software engineer, freelancer and for the most an university student  of computer science.">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:url" content="https://vojtamares.com">
-<meta name="twitter:title" content="Vojtěch Mareš - Software Engineer & Freelancer">
-<meta name="twitter:description" content="Hello, my name is Vojtěch Mareš. I'm from Czech Republic and I am a software engineer, freelancer and for the most an university student  of computer science.">
-<meta name="twitter:image" content="https://vojtamares.com/me.jpg">
+<head>
+    <meta charset="utf-8">
+    <title>{{ .Title }}{{ if .Title }} | {{ end }}{{ $.Site.Title }}</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" title="My Awesome Style">
+    <meta name="description" content="{{ $.Site.Params.Subtitle }}" />
+    <meta name="keywords" content="{{ $.Site.Params.Keywords }}" />
+    <meta name="author" content="Vojtěch Mareš">
+    <meta name="theme-color" content="#24292e">
+    <meta name="og:title" content="{{ $.Site.Title }}" />
+    <meta name="og:type" content="website">
+    <meta name="og:image" content="{{ $.Site.BaseURL }}/images/me.jpg" />
+    <meta name="og:url" content="{{ .Permalink }}" />
+    <meta name="og:description" content="{{ $.Site.Params.Subtitle }}" />
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="{{ .Permalink }}" />
+    <meta name="twitter:title" content="{{ $.Site.Title }}" />
+    <meta name="twitter:description" content="{{ $.Site.Params.Subtitle }}" />
+    <meta name="twitter:image" content="{{ $.Site.BaseURL }}/images/me.jpg" />
+    {{ if .IsHome }}
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    {{ end }}
+</head>

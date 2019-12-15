@@ -1,35 +1,21 @@
 baseURL = "https://vojtamares.blog/"
 languageCode = "en-us"
-title = "Vojtěch Mareš's blog"
-paginate = 5
+title = "Vojtěch Mareš - Software engineer, freelancer and stundent"
 enableEmoji = true
 
 [params]
   # dir name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
-  # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "orange"
-  # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 3
-  # show selector to switch language
-  showLanguageSelector = false
-  # set theme to full screen width
-  fullWidthTheme = false
-  # center theme with default width
-  centerTheme = false
-  # set a custom favicon (default is a `themeColor` square)
-  # favicon = "favicon.ico"
+  # posts per list page
+  paginate = 4
 
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Vojtěch Mareš's blog"
-    subtitle = "My small blog"
-    keywords = ""
+    title = "Vojtěch Mareš - Software engineer, Freelancer, Stundent"
+    subtitle = "Hello, my name is Vojtěch Mareš. I'm from Czech Republic and I am a software engineer, freelancer and for the most an university student of computer science."
+    keywords = "software engineer, developer, programmer, vojtěch mareš, vojta mareš, freelancer, web developer"
     copyright = ""
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
