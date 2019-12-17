@@ -1,6 +1,6 @@
 <head>
     <meta charset="utf-8">
-    <title>{{ .Title }}{{ if .Title }} | {{ end }}{{ $.Site.Title }}</title>
+    <title>{{ if not .IsHome  }}{{ .Title }}{{ if .Title }} | {{ end }}{{ end }}{{ $.Site.Title }}</title>
     <link rel="stylesheet" type="text/css" href="/css/style.css" title="My Awesome Style">
     <meta name="description" content="{{ $.Site.Params.Subtitle }}" />
     <meta name="keywords" content="{{ $.Site.Params.Keywords }}" />
