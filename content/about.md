@@ -49,9 +49,9 @@ _git, PHP, nginx, SQL databses (MySQL, MariaDB, PostgreSQL), Sentry, Redis, Rabb
 
 Among computers and other IT things, I have other interests (Hard to believe, right?).
 
-I love hanging out with friends, watching movies, series or going to theater. I love music, live concerts are awesome! And my Spotify subscription is best spent 6 EUR / month.
+I love hanging out with friends, watching movies, series or going to theater. I love music, live concerts are awesome! And my Spotify subscription is best spent 6 EUR / month. Also I really like tattoos, I currently have two, but on spots that can be easily hidden if needed, but I will not hide them because you do not like them.
 
-Sports, I think you need to have healthy relationship with your body. You need to keep your mind satisfied and your body, sports are good way of doing it. My favorite sports are motion based such as parkour and slackline and my latest discovery - paragliding. I guess you can say I like adrenalin (a lot). And also seasonal-based sports such as cycling, skying, paddling (on rivers) and more. And I never got into running.
+Sports, I think you need to have healthy relationship with your body. You need to keep your mind satisfied and your body, sports are good way of doing it. My favorite sports are motion based such as parkour and slackline and my latest discovery - paragliding. I guess you can say I like adrenalin (a lot). And also seasonal-based sports such as cycling, skying, paddling (on rivers) and more. And I never got into running. 
 
 I like beer, but I'm trying to avoid drinking whenever possible.
 
