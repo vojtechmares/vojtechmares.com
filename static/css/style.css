@@ -2,21 +2,20 @@ body {
     background-color: #24292e;
     color: #ccc;
     font-family: "Fira Mono", monospace;
-    line-height: 1.5em;
-    font-size: 1em;
+    line-height: 1.5rem;
 }
 header,main,aside,footer {
     display: block;
-    max-width: 42em;
+    max-width: 42rem;
     margin: 0 auto;
 }
 article img {
-    width: 21em;
-    height: 21em;
+    width: 21rem;
+    height: 21rem;
     border-radius: 50%;
 }
 .me {
-    margin-top: 1em;
+    margin-top: 1rem;
     text-align: center;
 }
 nav ul {
@@ -25,7 +24,7 @@ nav ul {
 }
 nav ul li {
     display: table-cell;
-    padding: 0 .5em;
+    padding: 0 .5rem;
 }
 nav ul li:before {
     content: " >> ";
@@ -42,17 +41,17 @@ a:active, a:hover {
 }
 footer {
     font-size: x-small;
-    padding-top: 4em;
+    padding-top: 4rem;
     text-align: center;
 }
 main.content {
-    margin-top: 2em;
+    margin-top: 2rem;
 }
 .post-image {
     text-align: center;
 }
 .post-image img {
-    max-width: 42em;
+    max-width: 42rem;
 }
 ul.fancy-forward {
     list-style: none;
@@ -60,7 +59,7 @@ ul.fancy-forward {
 }
 ul.fancy-forward li {
     display: table-cell;
-    padding: 0 .5em;
+    padding: 0 .5rem;
 }
 ul.fancy-forward li:after {
     content: " >> ";
@@ -73,7 +72,7 @@ ul.fancy-backward {
 }
 ul.fancy-backward li {
     display: table-cell;
-    padding: 0 .5em;
+    padding: 0 .5rem;
 }
 ul.fancy-backward li:before {
     content: " << ";
@@ -92,7 +91,7 @@ nav.pagination ul.next {
 }
 nav.pagination ul li {
     display: table-cell;
-    padding: 0 .5em;
+    padding: 0 .5rem;
 }
 nav.pagination ul.next li:before {
     content: '';
