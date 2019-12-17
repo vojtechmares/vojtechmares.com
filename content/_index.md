@@ -12,4 +12,8 @@ I have about two years of professional experience of writing web applications in
 
 I would love to give a try to Go, Rust programming languages and I really like cloud and serverless approach to building applications. 
 
+<hr>
+
+Amog programming, I like outdoor activities such as parkour, skying, slackline and more! I like music, movies, tattoos and friends.
+
 In spare time I write open source under [Contributte](https://contributte.org) organization.
