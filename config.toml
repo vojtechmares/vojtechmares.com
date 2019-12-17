@@ -3,6 +3,11 @@ languageCode = "en-us"
 DefaultContentLanguage = "en"
 enableEmoji = true
 
+[outputFormats]
+  [outputFormats.RSS]
+  mediatype = "application/rss"
+  baseName = "feed"
+
 [author]
   name = "Vojtěch Mareš"
 
