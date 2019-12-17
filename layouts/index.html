@@ -10,10 +10,14 @@
     <aside>
         <nav>
             <ul>
-                <li><a href="https://twitter.com/vojtamares_">twitter</a></li>
-                <li><a href="https://github.com/vojtamares">github</a></li>
-                <li><a href="/posts">blog</a></li>
-                <li><a href="/about">about</a></li>
+                {{ range $.Site.Params.links.dev }}
+                    <li><a href="{{ .url }}">{{ .name }}</a></li>
+                {{ end }}
+                {{ range $.Site.Menus.main }}
+                    {{ if not (eq .Name "home") }}
+                        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                    {{ end }}
+                {{ end }}
             </ul>
         </nav>
     </aside>
