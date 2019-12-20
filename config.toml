@@ -2,6 +2,7 @@ baseURL = "https://vojtamares.com/"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 enableEmoji = true
+googleAnalytics = "G-7SJ8913NW3"
 
 [markup]
   [markup.highlight]
