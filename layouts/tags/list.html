@@ -23,8 +23,6 @@
             <p>
                 {{ if .Params.Description }}
                     {{ .Params.Description | markdownify }}
-                {{ else if .Truncated }}
-                    {{ .Truncated }}
                 {{ end }}
             </p>
             <ul class="fancy-forward">
