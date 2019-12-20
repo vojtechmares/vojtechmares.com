@@ -99,3 +99,14 @@ nav.pagination ul.next li:before {
 nav.pagination ul.previous li:after {
     content: '';
 }
+blockquote {
+    border-left: #3e3 solid .25rem;
+    margin: 1rem;
+    padding-left: 1rem;
+}
+
+pre {
+    padding: 1rem;
+    font-size: 1rem;
+    overflow-x: scroll;
+}

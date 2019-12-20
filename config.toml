@@ -3,6 +3,15 @@ languageCode = "en-us"
 DefaultContentLanguage = "en"
 enableEmoji = true
 
+[markup]
+  [markup.highlight]
+    codeFences = true
+    style = "native"
+    tabWidth = 4
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+
 [outputFormats]
   [outputFormats.RSS]
   mediatype = "application/rss"
