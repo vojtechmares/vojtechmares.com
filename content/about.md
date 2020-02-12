@@ -1,7 +1,7 @@
 ---
 title: About
 ---
-I am studying computer science at [Czech Technical University](https://cvut.cz) at [Faculty of Nuclear Sciences and Physical Engineering](https://fjfi.cvut.cz). So I'm in my twenties. I've changed universities, because of that I had to start again.
+I am studying computer science at [Czech Technical University](https://cvut.cz) at [Faculty of Nuclear Sciences and Physical Engineering](https://fjfi.cvut.cz). I'm 22 years old. I've changed universities, because of that I had to start again.
 
 ## Professional career
 
@@ -11,7 +11,7 @@ Shortly after my first server went live I got interested in having a website, so
 
 In late 2016, till June 2017, I was teaching some basic IT at Centre of leisuire time activities in Prague. I had 3 courses which were:
 
-* Programming basics (C++ for most)
+* Programming basics (C++ for the most)
 * Hardware (not just computers) and some networking
 * Robotics with Lego Mindstorms (and at the end small examples with Arduino which were more to show then to teach)
 
@@ -37,13 +37,13 @@ Since 2018 I am a freelancer and while I'm studying, I am trying to find time to
 
 There is a list of technologies I am interested in, I'm sure I've missed some so do no take it for granted that what is not here I do not care about.
 
-_git, PHP, Golang, Rust, NodeJS, async programming, distributed systems, cloud, serverless, devops, security, linux (servers), SQL databases (MySQL, MariaDB, PostgreSQL), Redis, queues (RabbitMQ, AWS SQS), multiplayer games, realtime apps (chat, data processing), APIs & gRPC, scalable infrastructure, Kotlin, Docker, Kubernetes, nginx_
+*git, PHP, Golang, Rust, NodeJS, async programming, distributed systems, cloud (AWS), serverless, devops, security, linux (servers), SQL databases (MySQL, MariaDB, PostgreSQL), Redis, message queues (RabbitMQ, AWS SQS), multiplayer games, realtime apps, APIs & gRPC, scalable infrastructure, Kotlin, Docker, Kubernetes, nginx*
 
 ### Experiences
 
 At some point I have been working (professionally or in personal manner) with these technologies:
 
-_git, PHP, nginx, SQL databses (MySQL, MariaDB, PostgreSQL), Sentry, Redis, RabbitMQ, NodeJS (Yarn, Babel, Webpack, Vue.js and some of server-side JS), Python, Java, Golang, Linux (Debian, Ubuntu, Alpine), Docker, GitHub & GitLab & BitBucket, Kubernetes, Digital Ocean's cloud (Managed Kubernes), Apache, HTTP API(s)_
+*git, PHP, nginx, SQL databses (MySQL, MariaDB, PostgreSQL), Sentry, Redis, RabbitMQ, NodeJS (Yarn,, Webpack, Vue.js), Python, Java, Linux (Debian, Ubuntu, Alpine), Docker, GitHub & GitLab & BitBucket, GitLab CI/CD,  Kubernetes, Digital Ocean's cloud (Managed Kubernes), Apache*
 
 ## Personal interests
 
@@ -57,6 +57,6 @@ I like beer, but I'm trying to avoid drinking whenever possible.
 
 One of the things I love to do is traveling, which today is really cheap, but you need to have time and money (at the same time) which for student is quite hard combination to achieve.
 
-Also, I'm a Scout.
+Also, I'm a scout.
 
 In 2019 I joined a non-profit organization [IAESTE](https://www.iaeste.cz) where I'm managing our IT infrastructure at the moment. PS: We have Kubernetes! PSS: I'm volunteering in there!
