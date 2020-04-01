@@ -2,6 +2,9 @@
     {{ if not .IsHome }}
         <nav>
             <ul>
+                {{ range $.Site.Params.links.dev }}
+                    <li><a href="{{ .url }}">{{ .name }}</a></li>
+                {{ end }}
                 {{ range $.Site.Menus.main }}
                     <li><a href="{{ .URL }}">{{ .Name }}</a></li>
                 {{ end }}
