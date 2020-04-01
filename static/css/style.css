@@ -1,8 +1,27 @@
+:root {
+    --dark-bg: #24292e;
+    --dark-text: #ccc;
+    --light-bg: #f6f8fa;
+    --light-text: #24292e;
+}
+.dark {
+    --bg: var(--dark-bg);
+    --text: var(--dark-text);
+    --inverse-bg: var(--light-bg);
+    --inverse-text: var(--light-text);
+}
+.light {
+    --bg: var(--light-bg);
+    --text: var(--light-text);
+    --inverse-bg: var(--dark-bg);
+    --inverse-text: var(--dark-text);
+}
 body {
-    background-color: #24292e;
-    color: #ccc;
+    background-color: var(--bg);
+    color: var(--text);
     font-family: "Fira Mono", monospace;
     line-height: 1.5rem;
+    transition: background 500ms ease-in-out, color 1000ms ease-in-out;
 }
 header,main,aside,footer {
     display: block;
@@ -36,7 +55,7 @@ nav ul li:before {
 }
 a:link, a:visited {
     text-decoration: underline;
-    color: #ccc;
+    color: var(--text);
 }
 a:active, a:hover {
     text-decoration: underline;
@@ -107,9 +126,29 @@ blockquote {
     margin: 1rem;
     padding-left: 1rem;
 }
-
 pre {
     padding: 1rem;
     font-size: 1rem;
     overflow-x: scroll;
+}
+.preload {
+    transition: none !important;
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+}
+#theme-switch {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    padding: 1.25rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: var(--inverse-bg);
+    color: var(--inverse-text);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
 }

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     {{- partial "head.html" . -}}
-    <body>
+    <body class="light preload">
         {{- partial "header.html" . -}}
         {{- block "main" . }}{{- end }}
         {{- partial "footer.html" . -}}
@@ -18,5 +18,7 @@
                 }
             </script>
         {{ end }}
+        <button id="theme-switch"></button>
+        <script defer src="/js/app.js"></script>
     </body>
 </html>
