@@ -23,8 +23,6 @@ Since 2018 I am a freelancer and while I'm studying, I am trying to find time to
 
 ### Some dates
 
- **2011**: My fist experience with something more advance
-
  **2013-2014**: Helpdesk at game hosting
 
  **2016-2017**: Teacher at Centre of leisuire time activities
@@ -59,4 +57,4 @@ One of the things I love to do is traveling, which today is really cheap, but yo
 
 Also, I'm a scout.
 
-In 2019 I joined a non-profit organization [IAESTE](https://www.iaeste.cz) where I'm managing our IT infrastructure at the moment. PS: We have Kubernetes! PSS: I'm volunteering in there!
+In 2019 I joined a non-profit organization [IAESTE](https://www.iaeste.cz) where I was managing IT infrastructure, legacy servers and Kubernetes. I was a volunteer.
