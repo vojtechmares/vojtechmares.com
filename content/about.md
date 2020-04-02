@@ -23,13 +23,13 @@ Since 2018 I am a freelancer and while I'm studying, I am trying to find time to
 
 ### Some dates
 
- **2013-2014**: Helpdesk at game hosting
+ **09/2013 - 09/2014**: Helpdesk at game hosting
 
- **2016-2017**: Teacher at Centre of leisuire time activities
+ **09/2016 - 06/2017**: Teacher at Centre of leisuire time activities
 
- **2018-today**: Freelancer and first contract
+ **Since 04/2018**: Freelancing
 
- **2019-today**: Long-term contract
+ **Since 08/2019**: Long-term contract
 
 ### Technical interests
 
