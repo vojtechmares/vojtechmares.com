@@ -2,7 +2,7 @@
 title: Home
 image: /images/me.jpg
 ---
-## print("Hello world"); 
+## println("Hello world"); 
 
 ## // My name is Vojtěch Mareš.
 
