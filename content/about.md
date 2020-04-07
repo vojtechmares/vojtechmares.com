@@ -1,7 +1,7 @@
 ---
 title: About
 ---
-I am studying computer science at [Czech Technical University](https://cvut.cz) at [Faculty of Nuclear Sciences and Physical Engineering](https://fjfi.cvut.cz). I'm 22 years old. I've changed universities, because of that I had to start again.
+I am studying computer science at [Czech Technical University](https://cvut.cz) at [Faculty of Nuclear Sciences and Physical Engineering](https://fjfi.cvut.cz). I'm 22 years old. I've changed universities, because of that, I had to start again.
 
 ## Professional career
 
@@ -15,7 +15,7 @@ In late 2016, till June 2017, I was teaching some basic IT at Centre of leisuire
 * Hardware (not just computers) and some networking
 * Robotics with Lego Mindstorms (and at the end small examples with Arduino which were more to show then to teach)
 
-These courses were for kids from 10 to 18 years of age where at programming lessons the average was around 14/15. Hardware had avaerage age at 13 and robotics (I think because of Lego) had average at age of 12.
+These courses were for kids from 10 to 18 years of age where at programming lessons the average was around 14-15. Hardware had avaerage age at 13 and robotics (I think because of Lego) had average at age of 12.
 
 It was great experience and even I learned a lot, some things were new for me on technical side of things (my knowledge is not infinite). But I learned much more about how to teach, how to manage group of people, how to share your knowledege and one day I would love to take this skills in use by doing trainings or short courses for example.
 
@@ -37,6 +37,12 @@ There is a list of technologies I am interested in, I'm sure I've missed some so
 
 *git, PHP, Golang, Rust, NodeJS, async programming, distributed systems, cloud (AWS), serverless, devops, security, linux (servers), SQL databases (MySQL, MariaDB, PostgreSQL), Redis, message queues (RabbitMQ, AWS SQS), multiplayer games, realtime apps, APIs & gRPC, scalable infrastructure, Kotlin, Docker, Kubernetes, nginx*
 
+That were the fancy buzzwords. What I *actually* do? I write web apps in PHP in [Nette framework](https://nette.org/). I sometimes use [Vue.js](https://vuejs.org/) for frontend. Since I am mostly inside the PHP world where we do not have many long running proccesses, I would like to try some Node.js or Go in production, to get real, reasonable experience and build stronger opinion based on that experience.
+
+Also, I see automation and DevOps (DevSecOps) as a big part of the future with great tools such as GitLab CI and Ansible. Continuous Delivery is just awesome, since you do not care about the deployment. Because it saves you some work and you do not have to think about it. That is just great.
+
+Severless, that is a fancy thing  which has been around for a while now, we have providers such as Amazon Web Services, Google Cloud Platform and Microsoft Azure. You can do so much of awesome stuff, just [google for it](https://lmgtfy.com/?q=serverless+app+ideas). It is quite easy to get started with simple functions and utilities or create an entire website!
+
 ### Experiences
 
 At some point I have been working (professionally or in personal manner) with these technologies:
@@ -57,4 +63,4 @@ One of the things I love to do is traveling, which today is really cheap, but yo
 
 Also, I'm a scout.
 
-In 2019 I joined a non-profit organization [IAESTE](https://www.iaeste.cz) where I was managing IT infrastructure, legacy servers and Kubernetes. I was a volunteer.
+In 2019 I joined a non-profit organization [IAESTE](https://www.iaeste.cz) where I was managing IT infrastructure, legacy servers and Kubernetes. I was volunteering here.
