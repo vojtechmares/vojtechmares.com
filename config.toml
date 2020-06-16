@@ -77,3 +77,6 @@ googleAnalytics = "G-7SJ8913NW3"
       identifier = "blog"
       name = "blog"
       url = "/blog"
+      
+[permalinks]
+  "/gitlab" = "https://gitlab.vojtamares.com/users/sign_in"
