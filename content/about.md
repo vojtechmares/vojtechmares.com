@@ -37,9 +37,13 @@ There is a list of technologies I am interested in, I'm sure I've missed some so
 
 *git, PHP, Golang, Rust, NodeJS, async programming, distributed systems, cloud (AWS), serverless, devops, security, linux (servers), SQL databases (MySQL, MariaDB, PostgreSQL), Redis, message queues (RabbitMQ, AWS SQS), multiplayer games, realtime apps, APIs & gRPC, scalable infrastructure, Kotlin, Docker, Kubernetes, nginx*
 
-That were the fancy buzzwords. What I *actually* do? I write web apps in PHP in [Nette framework](https://nette.org/). I sometimes use [Vue.js](https://vuejs.org/) for frontend. Since I am mostly inside the PHP world where we do not have many long running proccesses, I would like to try some Node.js or Go in production, to get real, reasonable experience and build stronger opinion based on that experience.
+That were the fancy buzzwords. What I *actually* do? I write web apps in PHP in [Nette framework](https://nette.org/). I sometimes use [Vue.js](https://vuejs.org/) for frontend. 
 
-Also, I see automation and DevOps (DevSecOps) as a big part of the future with great tools such as GitLab CI and Ansible. Continuous Delivery is just awesome, since you do not care about the deployment. Because it saves you some work and you do not have to think about it. That is just great.
+Recently I moved away from PHP world into DevOps, SRE, automation and I will be writing Golang! Rust, you are up next.
+
+I love automation and CI proccesses, GitLab is just an awesome tool with so many great features in a single thing. That's just wow. 
+
+Have you met containerization? And I do not mean only Docker, also Linux Containers (lxc) is a great thing too. But for simplicity and usability, identical environment for all, Docker is a the thing right now.
 
 Severless, that is a fancy thing  which has been around for a while now, we have providers such as Amazon Web Services, Google Cloud Platform and Microsoft Azure. You can do so much of awesome stuff, just [google for it](https://lmgtfy.com/?q=serverless+app+ideas). It is quite easy to get started with simple functions and utilities or create an entire website!
 
@@ -47,7 +51,7 @@ Severless, that is a fancy thing  which has been around for a while now, we have
 
 At some point I have been working (professionally or in personal manner) with these technologies:
 
-*git, PHP, nginx, SQL databses (MySQL, MariaDB, PostgreSQL), Sentry, Redis, RabbitMQ, NodeJS (Yarn,, Webpack, Vue.js), Python, Java, Linux (Debian, Ubuntu, Alpine), Docker, GitHub & GitLab & BitBucket, GitLab CI/CD,  Kubernetes, Digital Ocean's cloud (Managed Kubernes), Apache*
+*git, PHP, nginx, SQL databses (MySQL, MariaDB, PostgreSQL), Sentry, Redis, RabbitMQ, NodeJS (Yarn,, Webpack, Vue.js), Python, Java, Linux (Debian, Ubuntu, Alpine), Docker, GitHub & GitLab & BitBucket, GitLab CI/CD,  Kubernetes, Digital Ocean's cloud (Managed Kubernes), Apache web server*
 
 ## Personal interests
 
