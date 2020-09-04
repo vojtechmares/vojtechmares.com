@@ -132,7 +132,7 @@ pre {
     font-size: 1rem;
     overflow-x: scroll;
 }
-.preload {
+.preload, a:link, a:visited {
     transition: none !important;
     -webkit-transition: none !important;
     -moz-transition: none !important;
