@@ -34,7 +34,7 @@ googleAnalytics = "G-7SJ8913NW3"
     [[params.links.dev]]
       identifier = "twitter"
       name = "twitter"
-      url = "https://twitter.com/vojtamares_"
+      url = "https://twitter.com/vojtamares_dev"
 
 [languages]
   [languages.en]
