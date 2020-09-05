@@ -39,8 +39,8 @@ googleAnalytics = "G-7SJ8913NW3"
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Vojtěch Mareš - Software engineer, Freelancer, Student"
-    subtitle = "Hello, my name is Vojtěch Mareš. I'm from Czech Republic and I am a software engineer, freelancer and for the most an university student of computer science."
+    title = "Vojtěch Mareš - Software engineer, Freelancer"
+    subtitle = "Hello, my name is Vojtěch Mareš. I'm from Czech Republic and I am a software and devops engineer, freelancer."
     keywords = "software engineer, developer, programmer, vojtěch mareš, vojta mareš, freelancer, web developer"
     copyright = "Vojtěch Mareš | Everything is mine here"
     weight = 1
@@ -60,8 +60,8 @@ googleAnalytics = "G-7SJ8913NW3"
         url = "/blog"
   [languages.cs]
     languageName = "Čeština"
-    title = "Vojtěch Mareš - Softwarový indženýr na volné noze, student"
-    subtitle = "Ahoj, jmenuji se Vojtěch Mareš. Jsem softwarový indženýr na volné noze (OSVČ), ale hlavně student vysoké školy kde studuji informatiku."
+    title = "Vojtěch Mareš - Softwarový inženýr na volné noze"
+    subtitle = "Ahoj, jmenuji se Vojtěch Mareš. Jsem softwarový a devops inženýr na volné noze (OSVČ)."
     keywords = "softwarový indženýr, vývojář, programátor, vojtěch mareš, vojta mareš, freelancer, osvč, na volné noze, web developer"
     copyright = "Vojtěch Mareš | Všechno tu je moje"
     weight = 2
