@@ -153,3 +153,6 @@ pre {
     border-radius: 50%;
     cursor: pointer;
 }
+h1 {
+    line-height: normal;
+}
