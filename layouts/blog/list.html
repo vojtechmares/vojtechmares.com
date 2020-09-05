@@ -4,7 +4,7 @@
         {{ range (.Paginator 4).Pages.ByPublishDate.Reverse }}
             <h1><a href="{{ .Permalink }}">{{ .Params.Title }}</a></h1>
             <p>
-                <em>Written {{ .Date.Format "2006-01-02" }}</em> 
+                <em>Written {{ .Date.Format "2006-01-02" }}, {{ .ReadingTime }} minute read</em> 
                 {{ if .Params.tags }}
                     <br>
                     tags: 

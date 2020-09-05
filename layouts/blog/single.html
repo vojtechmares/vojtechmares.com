@@ -1,7 +1,7 @@
 {{ define "main"}}
     <main class="content">
         <h1>{{ .Params.Title }}</h1>
-        <p><em>Written {{ .Date.Format "2006-01-02" }}</em></p>
+        <p><em>Written {{ .Date.Format "2006-01-02" }}, {{ .ReadingTime }} minute read</em></p>
         {{ if .Params.image }}
                 <div class="post-image">
                     <img src="{{ .Params.image }}" />
@@ -21,7 +21,7 @@
             </p>
         {{ end }}
         <small>
-            Did you find a typo? Correct me on <a href="https://github.com/vojtamares/vojtamares.com">GitHub</a>!
+            Did you find a typo? Correct me on <a href="https://github.com/vojtamares/vojtamares.com/tree/master/content/{{ .File.Path }}">GitHub</a>!
         </small>
     </main>
 {{ end }}
