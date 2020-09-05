@@ -1,21 +1,21 @@
 <head>
-    <meta charset="utf-8">
     <title>{{ if not .IsHome  }}{{ .Title }}{{ if .Title }} | {{ end }}{{ end }}{{ $.Site.Title }}</title>
+    <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="/css/style.css" title="My Awesome Style">
-    <meta name="description" content="{{ $.Site.Params.Subtitle }}" />
-    <meta name="keywords" content="{{ $.Site.Params.Keywords }}" />
-    <meta name="author" content="Vojtěch Mareš">
-    <meta name="theme-color" content="#24292e">
-    <meta name="og:title" content="{{ $.Site.Title }}" />
+    <meta name="description" content="{{ if .Params.description }}{{ .Params.description }}{{ else }}{{ $.Site.Params.Subtitle }}{{ end }}" />
+    <meta name="keywords" content="{{ if .Params.tags }}{{ range .Params.tags }}{{ . }},{{ end }}{{ else }}{{ $.Site.Params.Keywords }}{{ end }}" />
+    <meta name="author" content="Vojtěch Mareš" />
+    <meta name="theme-color" content="#24292e" />
+    <meta name="og:title" content="{{ if .Params.title }}{{ .Params.title }}{{ else }}{{ $.Site.Title }}{{ end }}" />
     <meta name="og:type" content="website">
-    <meta name="og:image" content="{{ $.Site.BaseURL }}/images/me.jpg" />
+    <meta name="og:image" content="{{ $.Site.BaseURL }}{{ if .Params.image }}{{ .Params.image }}{{ else }}/images/me.jpg{{ end }}" />
     <meta name="og:url" content="{{ .Permalink }}" />
-    <meta name="og:description" content="{{ $.Site.Params.Subtitle }}" />
+    <meta name="og:description" content="{{ if .Params.description }}{{ .Params.description }}{{ else }}{{ $.Site.Params.Subtitle }}{{ end }}" />
     <meta name="twitter:card" content="summary">
     <meta name="twitter:url" content="{{ .Permalink }}" />
-    <meta name="twitter:title" content="{{ $.Site.Title }}" />
-    <meta name="twitter:description" content="{{ $.Site.Params.Subtitle }}" />
-    <meta name="twitter:image" content="{{ $.Site.BaseURL }}/images/me.jpg" />
+    <meta name="twitter:title" content="{{ if .Params.title }}{{ .Params.title }}{{ else }}{{ $.Site.Title }}{{ end }}" />
+    <meta name="twitter:description" content="{{ if .Params.description }}{{ .Params.description }}{{ else }}{{ $.Site.Params.Subtitle }}{{ end }}" />
+    <meta name="twitter:image" content="{{ $.Site.BaseURL }}{{ if .Params.image }}{{ .Params.image }}{{ else }}/images/me.jpg{{ end }}" />
     {{ if .IsHome }}
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     {{ end }}
