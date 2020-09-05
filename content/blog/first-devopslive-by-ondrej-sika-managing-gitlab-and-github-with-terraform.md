@@ -1,6 +1,6 @@
 ---
 title: "First DevOpsLive by Ondrej Sika: Managing GitLab with Terraform"
-date: 2030-09-05T16:00:00.000Z
+date: 2020-09-05T16:00:00.000Z
 description: About two hours of concentrated knowledge of Terraform and GitLab
   and GitHub. How to automate your work not just with your infrastructure, but
   also with GitLab. Manage your groups, projects, users and all of it together
