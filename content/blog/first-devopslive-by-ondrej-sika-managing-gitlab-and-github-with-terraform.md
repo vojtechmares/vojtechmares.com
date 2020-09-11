@@ -15,7 +15,6 @@ tags:
   - gitlab
 image: /images/uploads/devopslive-by-ondrejsika-big.png
 ---
-
 **First DevOps Live livestream by Ondrej Sika, 2nd September 2020**
 
 The topic was how to use Terraform to configure and managed your GitLab (including self-hosted instance) and GitHub.
@@ -33,10 +32,15 @@ Almost everything can be managed via Terraform in GitLab, I would say that this 
 
 Unfortunately, since this was first livestream of DevOps Live, there was not much of time left for GitHub. Only a sneak peak was delivered, next time?
 
+### Other articles
+
+* [Ondrej Sika's blog post and recording of the livestream](https://ondrej-sika.cz/blog/zaznam-devops-live-1-sprava-gitlabu-pomoci-terraformu/)
+* [Ondrej Sika's blog post on managing GitLab via Terraform](https://ondrej-sika.cz/blog/sprava-gitlabu-pomoci-terraformu/)
+
 ### Links
 
-- [DevOps Live by Ondrej Sika](https://ondrej-sika.cz/devopslive)
-- [Terraform](https://www.terraform.io/)
-- [Terraform Registry](https://registry.terraform.io/)
-- [Terraform provider for GitLab](https://www.terraform.io/docs/providers/gitlab/index.html)
-- [Example tiny Terraform provider for Linode with some extra features](https://github.com/ondrejsika/terraform-provider-linodex)
+* [DevOps Live by Ondrej Sika](https://ondrej-sika.cz/devopslive)
+* [Terraform](https://www.terraform.io/)
+* [Terraform Registry](https://registry.terraform.io/)
+* [Terraform provider for GitLab](https://www.terraform.io/docs/providers/gitlab/index.html)
+* [Example tiny Terraform provider for Linode with some extra features](https://github.com/ondrejsika/terraform-provider-linodex)
