@@ -30,14 +30,14 @@ My main responsibility was keeping legacy infrastructure and systems up and runn
 
 **Since 09/2020**: DevOps consulting and training
 
-### Technical interests
-
-The following list is about things - technologies, concepts, software etc. I am interested in and would love to look into:
-
-*git, PHP, Golang, Rust, NodeJS, async programming, distributed systems, cloud (AWS), serverless, devops, security, linux (servers), SQL databases (MySQL, MariaDB, PostgreSQL), Redis, message queues (RabbitMQ, AWS SQS), multiplayer games, realtime apps, APIs & gRPC, scalable infrastructure, Kotlin, Docker, Kubernetes, nginx*
-
 ### Experiences
 
 At some point I have been working (professionally or in personal manner) with these technologies:
 
 *git, PHP, nginx, SQL databses (MySQL, MariaDB, PostgreSQL), Sentry, Redis, RabbitMQ, NodeJS (Yarn, Webpack, Vue.js), Python, Java, Linux (Debian, Ubuntu, Alpine), Docker, GitHub & GitLab & BitBucket, GitLab CI, Kubernetes, Digital Ocean's cloud (Managed Kubernes), Apache web server, Traefik, Terraform, Pakcer, Hugo, Netlify*
+
+### Technical interests
+
+The following list is about things - technologies, concepts, software etc. I am interested in and would love to look into:
+
+*git, PHP, Golang, Rust, NodeJS, async programming, distributed systems, cloud (AWS), serverless, devops, security, linux (servers), SQL databases (MySQL, MariaDB, PostgreSQL), Redis, message queues (RabbitMQ, AWS SQS), multiplayer games, realtime apps, APIs & gRPC, scalable infrastructure, Kotlin, Docker, Kubernetes, nginx*
