@@ -9,7 +9,7 @@ My first experience with computers was in 2011 when I was hosting a game server 
 
 Shortly after my first server went live I got interested in having a website, so I started to learning programming in PHP.
 
-**09/2016 - 06/2017**: I was teaching some basic IT at Centre of leisuire time activities in Prague. I had 3 courses which were:
+**Sep 2016 - Jun 2017**: I was teaching some basic IT at Centre of leisuire time activities in Prague. I had 3 courses which were:
 
 * Programming basics (C++ for the most)
 * Hardware (not just computers) and some networking
@@ -17,15 +17,15 @@ Shortly after my first server went live I got interested in having a website, so
 
 It was great experience and even I learned a lot, some things were new for me on technical side of things (my knowledge is not infinite). But I learned much more about how to teach, how to manage group of people, how to share your knowledge and one day I would love to take this skills in use by doing trainings or short courses for example.
 
-**09/2013 - 09/2014**: Helpdesk at [Hicoria.com](https://hicoria.com) game hosting
+**Sep 2013 - Sep 2014**: Helpdesk at [Hicoria.com](https://hicoria.com) game hosting
 
-**09/2016 - 06/2017**: Teacher at Centre of leisuire time activities
+**Sep 2016 - Jun 2017**: Teacher at Centre of leisuire time activities
 
-**Since 04/2018**: Freelance software developer
+**Since Apr 2018**: Freelance software developer
 
-**08/2019 - 06/2020**: Software developer at BeetFit s.r.o ([BeetFit.com](https://beetfit.com))
+**Aug 2019 - Jun 2020**: Software developer at BeetFit s.r.o ([BeetFit.com](https://beetfit.com))
 
-**10/2019 - 04/2020**: Volunteer at [IAESTE Czech Republic](https://www.iaeste.cz) as IT Manager\
+**Oct 2019 - Apr 2020**: Volunteer at [IAESTE Czech Republic](https://www.iaeste.cz) as IT Manager\
 My main responsibility was keeping legacy infrastructure and systems up and running. Some where legacy PHP or Java apps running on VMs (private KVM on baremetal). Some new systems are hosted at their developers to reduce the need of dedicated IT, since it requires a lot of time to keep together. Microsites for small events are deployed in managed Kubernetes so no need to manage linux servers, the goal is to migrate everything to Kubernetes. GitLab and CI was havily used with Kubernetes and all historic projects are archived.
 
 **Since 09/2020**: DevOps consulting and training
