@@ -29,12 +29,12 @@ googleAnalytics = "G-7SJ8913NW3"
   [params.links]
     [[params.links.dev]]
       identifier = "github"
-      name = "github"
+      name = "GitHub"
       url = "https://github.com/vojtamares"
     [[params.links.dev]]
       identifier = "twitter"
-      name = "twitter"
-      url = "https://twitter.com/vojtamares_dev"
+      name = "Twitter"
+      url = "https://twitter.com/vojtamares_"
 
 [languages]
   [languages.en]
@@ -48,35 +48,16 @@ googleAnalytics = "G-7SJ8913NW3"
     [languages.en.menu]
       [[languages.en.menu.main]]
         identifier = "home"
-        name = "home"
+        name = "Home"
         url = "/"
+        weight = 1
       [[languages.en.menu.main]]
         identifier = "about"
-        name = "about"
+        name = "About me"
         url = "/about"
+        wieght = 5
       [[languages.en.menu.main]]
         identifier = "blog"
-        name = "blog"
+        name = "Blog"
         url = "/blog"
-  [languages.cs]
-    languageName = "Čeština"
-    title = "Vojtěch Mareš - Softwarový inženýr na volné noze"
-    subtitle = "Ahoj, jmenuji se Vojtěch Mareš. Jsem softwarový a devops inženýr na volné noze (OSVČ)."
-    keywords = "softwarový indženýr, vývojář, programátor, vojtěch mareš, vojta mareš, freelancer, osvč, na volné noze, web developer"
-    copyright = "Vojtěch Mareš | Všechno tu je moje"
-    weight = 2
-    [[languages.cs.menu.main]]
-      identifier = "home"
-      name = "home"
-      url = "/"
-    [[languages.en.menu.main]]
-      identifier = "about"
-      name = "about"
-      url = "/about"
-    [[languages.en.menu.main]]
-      identifier = "blog"
-      name = "blog"
-      url = "/blog"
-      
-[permalinks]
-  "/gitlab" = "https://gitlab.vojtamares.com/users/sign_in"
+        weight = 3

@@ -1,5 +1,5 @@
 {{ define "main" }}
-    <main>
+    <main class="landing">
         <article>
             {{ if .Params.image }}
                 <div class="me"><img src="{{ .Params.image }}" alt="{{ .Params.Title }}" /></div>
@@ -8,17 +8,6 @@
         </article>
     </main>
     <aside>
-        <nav>
-            <ul>
-                {{ range $.Site.Params.links.dev }}
-                    <li><a href="{{ .url }}">{{ .name }}</a></li>
-                {{ end }}
-                {{ range $.Site.Menus.main }}
-                    {{ if not (eq .Name "home") }}
-                        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-                    {{ end }}
-                {{ end }}
-            </ul>
-        </nav>
+        Continue to my <a href="/blog">blog</a> or read more <a href="/about">about me</a>.
     </aside>
 {{ end }}

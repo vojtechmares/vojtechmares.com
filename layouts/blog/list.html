@@ -25,12 +25,12 @@
                     {{ .Params.Description | markdownify }}
                 {{ end }}
             </p>
-            <ul class="fancy-forward">
-                <li><a href="{{ .Permalink }}">Read more</a></li>
-            </ul>
+            <p>
+                <a href="{{ .Permalink }}">Read more</a>
+            </p>
             <hr>
         {{ end }}
-        Psst! Did you know that there is a <a type="application/rss+xml" href="/blog/feed.xml">RSS</a> feed, well you just found it.
+        Feed: <a type="application/rss+xml" href="/blog/feed.xml">RSS</a>
         {{ partial "pagination" . }}
     </main>
 {{ end }}

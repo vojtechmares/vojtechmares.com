@@ -1,27 +1,29 @@
 :root {
-    --dark-bg: #24292e;
-    --dark-text: #ccc;
-    --light-bg: #f6f8fa;
-    --light-text: #24292e;
+    --dark: #000000;
+    --light: #ffffff;
 }
 .dark {
-    --bg: var(--dark-bg);
-    --text: var(--dark-text);
-    --inverse-bg: var(--light-bg);
-    --inverse-text: var(--light-text);
+    --bg: var(--dark);
+    --text: var(--light);
+    --inverse-bg: var(--light);
+    --inverse-text: var(--dark);
 }
 .light {
-    --bg: var(--light-bg);
-    --text: var(--light-text);
-    --inverse-bg: var(--dark-bg);
-    --inverse-text: var(--dark-text);
+    --bg: var(--light);
+    --text: var(--dark);
+    --inverse-bg: var(--dark);
+    --inverse-text: var(--light);
 }
 body {
     background-color: var(--bg);
     color: var(--text);
-    font-family: "Fira Mono", monospace;
     line-height: 1.5rem;
     transition: background 500ms ease-in-out, color 1000ms ease-in-out;
+    font-family: hind siliguri,sans-serif;
+    font-size: 1.25rem;
+}
+.landing h1, .landing h2, .landing h3 {
+    font-family: "Fira Mono", monospace;
 }
 header,main,aside,footer {
     display: block;
@@ -48,23 +50,24 @@ nav ul li {
     display: table-cell;
     padding: 0 .5rem;
 }
-nav ul li:before {
-    content: " >> ";
-    color: #3e3;
-    font-weight: bold;
+a {
+    color: var(--text);
+    transition: color 1000ms ease-in-out !important;
 }
 a:link, a:visited {
     text-decoration: underline;
     color: var(--text);
-    transition: color 1000ms ease-in-out;
+    transition: color 1000ms ease-in-out !important;
 }
 a:active, a:hover {
     text-decoration: underline;
     color:#3e3;
 }
 footer {
-    font-size: x-small;
     padding-top: 4rem;
+}
+footer p {
+    font-size: x-small;
     text-align: center;
 }
 main.content {
@@ -75,32 +78,6 @@ main.content {
 }
 .post-image img {
     max-width: 42rem;
-}
-ul.fancy-forward {
-    list-style: none;
-    padding: 0;
-}
-ul.fancy-forward li {
-    display: table-cell;
-    padding: 0 .5rem;
-}
-ul.fancy-forward li:after {
-    content: " >> ";
-    color: #3e3;
-    font-weight: bold;
-}
-ul.fancy-backward {
-    list-style: none;
-    padding: 0;
-}
-ul.fancy-backward li {
-    display: table-cell;
-    padding: 0 .5rem;
-}
-ul.fancy-backward li:before {
-    content: " << ";
-    color: #3e3;
-    font-weight: bold;
 }
 nav.pagination ul {
     list-style: none;
@@ -128,11 +105,12 @@ blockquote {
     padding-left: 1rem;
 }
 pre {
+    font-family: "Fira Mono", monospace;
     padding: 1rem;
     font-size: 1rem;
     overflow-x: scroll;
 }
-.preload, a:link, a:visited {
+.preload, a, a:link, a:visited {
     transition: none !important;
     -webkit-transition: none !important;
     -moz-transition: none !important;
@@ -155,4 +133,15 @@ pre {
 }
 h1 {
     line-height: normal;
+}
+footer h4 {
+    margin: 0;
+}
+footer ul {
+    margin: 1rem;
+    padding: 0;
+}
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }

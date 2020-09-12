@@ -1,5 +1,22 @@
 <footer>
-    
-    <p> &copy; {{ now.Format "2006" }} | Vojtěch Mareš | Made with <span style="color:red;">{{ ":heart:" | emojify }}</span> and magic by Hugo and Netlify</p>
+    <div class="row">
+        <div class="column">
+            <h4>Website</h4>
+            <ul>
+                {{ range $.Site.Menus.main }}
+                        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                {{ end }}
+            </ul>
+        </div>
+        <div class="column">
+            <h4>Links</h3>
+            <ul>
+                {{ range $.Site.Params.links.dev }}
+                    <li><a href="{{ .url }}">{{ .name }}</a></li>
+                {{ end }}
+            </ul>
+        </div>
+    </div>
+    <p>&copy; {{ now.Format "2006" }} | Vojtěch Mareš | Made with <span style="color:red;">{{ ":heart:" | emojify }}</span> and magic by Hugo and Netlify</p>
 </footer>
 {{ partial "gtag" . }}
