@@ -15,8 +15,6 @@ Shortly after my first server went live I got interested in having a website, so
 * Hardware (not just computers) and some networking
 * Robotics with Lego Mindstorms (and at the end small examples with Arduino which were more to show then to teach)
 
-These courses were for kids from primary to secondary school with average age around 13.
-
 It was great experience and even I learned a lot, some things were new for me on technical side of things (my knowledge is not infinite). But I learned much more about how to teach, how to manage group of people, how to share your knowledge and one day I would love to take this skills in use by doing trainings or short courses for example.
 
 **09/2013 - 09/2014**: Helpdesk at [Hicoria.com](https://hicoria.com) game hosting
