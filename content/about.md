@@ -9,17 +9,17 @@ My first experience with computers was in 2011 when I was hosting a game server 
 
 Shortly after my first server went live I got interested in having a website, so I started to learning programming in PHP.
 
-**Sep 2016 - Jun 2017**: I was teaching some basic IT at Centre of leisuire time activities in Prague. I had 3 courses which were:
+**Sep 2013 - Sep 2014**: Helpdesk at [Hicoria.com](https://hicoria.com) game hosting\
+My responsibility was answering tickets and configuring the game servers if needed. At the end I shifted more towards VPS rather then gaming.
+
+**Sep 2016 - Jun 2017**: Teacher at Centre of leisuire time activities\
+I was teaching some basic IT at Centre of leisuire time activities in Prague. I had 3 courses which were:
 
 * Programming basics (C++ for the most)
 * Hardware (not just computers) and some networking
 * Robotics with Lego Mindstorms (and at the end small examples with Arduino which were more to show then to teach)
 
 It was great experience and even I learned a lot, some things were new for me on technical side of things (my knowledge is not infinite). But I learned much more about how to teach, how to manage group of people, how to share your knowledge and one day I would love to take this skills in use by doing trainings or short courses for example.
-
-**Sep 2013 - Sep 2014**: Helpdesk at [Hicoria.com](https://hicoria.com) game hosting
-
-**Sep 2016 - Jun 2017**: Teacher at Centre of leisuire time activities
 
 **Since Apr 2018**: Freelance software developer
 
@@ -41,3 +41,7 @@ At some point I have been working (professionally or in personal manner) with th
 The following list is about things - technologies, concepts, software etc. I am interested in and would love to look into:
 
 *git, PHP, Golang, Rust, NodeJS, async programming, distributed systems, cloud (AWS), serverless, devops, security, linux (servers), SQL databases (MySQL, MariaDB, PostgreSQL), Redis, message queues (RabbitMQ, AWS SQS), multiplayer games, realtime apps, APIs & gRPC, scalable infrastructure, Kotlin, Docker, Kubernetes, nginx*
+
+## Personal information
+
+I am a scout and I have been part of Scout for 15 years. Which has provided me with great experience of leading people and also of first aid for example. I am interested in adrenalin sports such as paragliding and parachuting.
