@@ -19,7 +19,7 @@ body {
     color: var(--text);
     line-height: 1.5rem;
     transition: background 500ms ease-in-out, color 1000ms ease-in-out;
-    font-family: hind siliguri,sans-serif;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-size: 1.25rem;
 }
 .landing h1, .landing h2, .landing h3 {
@@ -61,7 +61,7 @@ a:link, a:visited {
 }
 a:active, a:hover {
     text-decoration: underline;
-    color:#3e3;
+    color:rgb(19, 20, 128);
 }
 footer {
     padding-top: 4rem;
@@ -100,7 +100,7 @@ nav.pagination ul.previous li:after {
     content: '';
 }
 blockquote {
-    border-left: #3e3 solid .25rem;
+    border-left: rgb(19, 20, 128) solid .25rem;
     margin: 1rem;
     padding-left: 1rem;
 }
