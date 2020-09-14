@@ -53,7 +53,7 @@ googleAnalytics = "G-7SJ8913NW3"
         weight = 1
       [[languages.en.menu.main]]
         identifier = "about"
-        name = "About me"
+        name = "About"
         url = "/about"
         wieght = 5
       [[languages.en.menu.main]]
