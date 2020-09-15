@@ -19,7 +19,7 @@ googleAnalytics = "G-7SJ8913NW3"
   baseName = "feed"
 
 [author]
-  name = "Vojtěch Mareš"
+  name = "Vojtech Mares"
 
 [params]
   # dir name of your blog content (default is `content/posts`)
@@ -30,18 +30,18 @@ googleAnalytics = "G-7SJ8913NW3"
     [[params.links.dev]]
       identifier = "github"
       name = "GitHub"
-      url = "https://github.com/vojtamares"
+      url = "https://github.com/vojtechmares"
     [[params.links.dev]]
       identifier = "twitter"
       name = "Twitter"
-      url = "https://twitter.com/vojtamares_"
+      url = "https://twitter.com/vojtechmares_"
 
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Vojta Mareš - Software engineer, Freelancer"
-    subtitle = "Hello, my name is Vojtěch Mareš. I'm from Czech Republic and I am a software and devops engineer, freelancer."
-    keywords = "software engineer, developer, programmer, vojtěch mareš, vojta mareš, freelancer, web developer"
+    title = "Vojtech Mares - Software engineer, Freelancer"
+    subtitle = "Hello, my name is Vojtech Mares. I'm from Czech Republic and I am a software and devops engineer, freelancer."
+    keywords = "software engineer, developer, programmer, vojtěch mareš, vojta mareš, freelancer, web developer, vojtech mares, vojta mares, mares"
     copyright = "Vojtěch Mareš | Everything is mine here"
     weight = 1
 
