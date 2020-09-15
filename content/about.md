@@ -5,12 +5,19 @@ I'm 23 years old. Freelance Software engineering and DevOps consultant. Right no
 
 ## Professional career
 
+**Since 09/2020**: DevOps consulting and training\
+I implement DevOps culture into companies, meaning implementing full CI pipeline with GitLab CI, managing infrastrcture with Terraform, building docker images and deploying them to Kubernetes (on any provider, from AWS, to on-prem HW with OpenStack)
+
+**Oct 2019 - Apr 2020**: Volunteer at [IAESTE Czech Republic](https://www.iaeste.cz) as IT Manager\
+My main responsibility was keeping legacy infrastructure and systems up and running. Some where legacy PHP or Java apps running on VMs (private KVM on baremetal). Some new systems are hosted at their developers to reduce the need of dedicated IT, since it requires a lot of time to keep together. Microsites for small events are deployed in managed Kubernetes so no need to manage linux servers, the goal is to migrate everything to Kubernetes. GitLab and CI was havily used with Kubernetes and all historic projects are archived.
+
 My first experience with computers was in 2011 when I was hosting a game server for friends. Since then I was interested in (linux) servers . After a while I was helpdesk at Czech gamehosting [Hicoria.com](https://hicoria.com). 
 
 Shortly after my first server went live I got interested in having a website, so I started to learning programming in PHP.
 
-**Sep 2013 - Sep 2014**: Helpdesk at [Hicoria.com](https://hicoria.com) game hosting\
-My responsibility was answering tickets and configuring the game servers if needed. At the end I shifted more towards VPS rather then gaming.
+**Aug 2019 - Jun 2020**: Software developer at BeetFit s.r.o ([BeetFit.com](https://beetfit.com))
+
+**Since Apr 2018**: Freelance software developer
 
 **Sep 2016 - Jun 2017**: Teacher at Centre of leisuire time activities\
 I was teaching some basic IT at Centre of leisuire time activities in Prague. I had 3 courses which were:
@@ -21,14 +28,8 @@ I was teaching some basic IT at Centre of leisuire time activities in Prague. I 
 
 It was great experience and even I learned a lot, some things were new for me on technical side of things (my knowledge is not infinite). But I learned much more about how to teach, how to manage group of people, how to share your knowledge and one day I would love to take this skills in use by doing trainings or short courses for example.
 
-**Since Apr 2018**: Freelance software developer
-
-**Aug 2019 - Jun 2020**: Software developer at BeetFit s.r.o ([BeetFit.com](https://beetfit.com))
-
-**Oct 2019 - Apr 2020**: Volunteer at [IAESTE Czech Republic](https://www.iaeste.cz) as IT Manager\
-My main responsibility was keeping legacy infrastructure and systems up and running. Some where legacy PHP or Java apps running on VMs (private KVM on baremetal). Some new systems are hosted at their developers to reduce the need of dedicated IT, since it requires a lot of time to keep together. Microsites for small events are deployed in managed Kubernetes so no need to manage linux servers, the goal is to migrate everything to Kubernetes. GitLab and CI was havily used with Kubernetes and all historic projects are archived.
-
-**Since 09/2020**: DevOps consulting and training
+**Sep 2013 - Sep 2014**: Helpdesk at [Hicoria.com](https://hicoria.com) game hosting\
+My responsibility was answering tickets and configuring the game servers if needed. At the end I shifted more towards VPS rather then gaming.
 
 ### Experiences
 
