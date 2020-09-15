@@ -4,7 +4,7 @@ image: /images/me.jpg
 ---
 ## println("Hello world");
 
-## // My name is Vojtěch Mareš
+## // My name is Vojta Mareš
 
 I'm from Czech Republic and I am software engineer, freelancer and devops consultant. I am fluent in English (C1). I have been programming professionaly for about three years. 
 
