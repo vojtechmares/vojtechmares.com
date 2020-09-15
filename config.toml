@@ -39,7 +39,7 @@ googleAnalytics = "G-7SJ8913NW3"
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Vojtěch Mareš - Software engineer, Freelancer"
+    title = "Vojta Mareš - Software engineer, Freelancer"
     subtitle = "Hello, my name is Vojtěch Mareš. I'm from Czech Republic and I am a software and devops engineer, freelancer."
     keywords = "software engineer, developer, programmer, vojtěch mareš, vojta mareš, freelancer, web developer"
     copyright = "Vojtěch Mareš | Everything is mine here"
