@@ -25,3 +25,9 @@
     to = "https://vojtechmares.com"
     status = 301
     force = true
+
+[[redirects]]
+    from = "https://www.vojtechmares.com"
+    to = "https://vojtechmares.com"
+    status = 301
+    force = true
