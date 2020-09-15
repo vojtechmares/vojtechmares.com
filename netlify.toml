@@ -1,3 +1,27 @@
 [[redirects]]
     from = "/gitlab"
     to = "https://gitlab.mareshq.com/users/sign_in"
+
+[[redirects]]
+    from = "http://vojtamares.com"
+    to = "https://vojtechmares.com"
+    status = 301
+    force = true
+
+[[redirects]]
+    from = "https://vojtamares.com"
+    to = "https://vojtechmares.com"
+    status = 301
+    force = true
+
+[[redirects]]
+    from = "http://www.vojtamares.com"
+    to = "https://vojtechmares.com"
+    status = 301
+    force = true
+
+[[redirects]]
+    from = "https://www.vojtamares.com"
+    to = "https://vojtechmares.com"
+    status = 301
+    force = true
