@@ -22,4 +22,6 @@
     {{ with .OutputFormats.Get "rss" -}}
         {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
+    <!-- G Suite domain ownership veritification -->
+    <meta name="google-site-verification" content="MZ1CV5Mel6cC63h74dSNIrmM-M3-N-GQf6zywO-RqH8" />
 </head>
