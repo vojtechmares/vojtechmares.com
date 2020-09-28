@@ -3,7 +3,7 @@ title: 'First article: JAMStack'
 date: 2019-12-15T10:59:03.000Z
 description: "A few words about JAMStack and what I like about it."
 tags: [jamstack, hugo, static website, netlify, cms]
-image: /images/uploads/ssgs.png
+image: /images/ssgs.png
 ---
 
 It took so long, but I am finally here, with my blog! Hooray! 

@@ -1,0 +1,28 @@
+data:
+  -
+    title:
+      - DevOps
+      - Consulting
+    manday:
+      rate: 8000
+      currency: CZK
+    description: I will help you automate your development process with the power of from-commit-to-production pipeline. Deploy to Kubernetes in minutes.
+    buttonText: Book me
+  -
+    title:
+      - Software
+      - Engineering
+    manday:
+      rate: 8000
+      currency: CZK
+    description: Using best practices to deliver first-class quality and tested software.
+    buttonText: Hire me
+  -
+    title:
+      - DevOps
+      - Training
+    manday:
+      rate: 8000
+      currency: CZK
+    description: In-house DevOps training from Git and GitLab CI to Terraform and Kubernetes.
+    buttonText: Book me

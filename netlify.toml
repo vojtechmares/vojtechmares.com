@@ -1,3 +1,7 @@
+[context.deploy-preview]
+  command = "yarn generate"
+  publish = "dist"
+
 [[redirects]]
     from = "/gitlab"
     to = "https://gitlab.mareshq.com/users/sign_in"
