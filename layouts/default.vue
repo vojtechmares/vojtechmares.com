@@ -5,10 +5,18 @@
 </template>
 
 <style>
+:root {
+  --width: 42rem;
+  --light: #fff;
+  --dark: #000;
+  --theme: var(--light);
+  --theme-inverse: var(--dark);
+}
+
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 16px;
+  font-size: 1.25rem;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -24,32 +32,32 @@ html {
   margin: 0;
 }
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
+body {
+  background: linear-gradient(248.84deg, #f3f7fb -0.3%, #f3f3f9 102.04%);
+  color: var(--theme-inverse);
 }
 
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
+a {
+  color: var(--theme-inverse);
 }
 
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
+h1,
+h2,
+h3 {
+  /* font-family: 'Fira Mono', monospace; */
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
+.container {
+  margin: 0 auto;
+  max-width: var(--width);
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 }
 </style>
