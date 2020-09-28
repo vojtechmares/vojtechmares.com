@@ -1,4 +1,4 @@
-[context.v2]
+[context.deploy-preview]
   command = "yarn generate"
   publish = "dist"
 
