@@ -21,13 +21,19 @@
     force = true
 
 [[redirects]]
-    from = "https://www.vojtamares.com"
+    from = "https://www.vojtechmares.com"
     to = "https://vojtechmares.com"
     status = 301
     force = true
-
+    
 [[redirects]]
-    from = "https://www.vojtechmares.com"
+    from = "https://vojtamares.cz"
+    to = "https://vojtechmares.com"
+    status = 301
+    force = true    
+    
+[[redirects]]
+    from = "https://www.vojtamares.cz"
     to = "https://vojtechmares.com"
     status = 301
     force = true
