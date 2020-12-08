@@ -1,6 +1,5 @@
 <template>
   <div>
-    <Navbar />
     <header>
       <div class="container intro">
         <Myself />
@@ -9,9 +8,9 @@
       </div>
     </header>
     <section class="about">
-      <p>
+      <div class="container">
         <nuxt-content :document="about" />
-      </p>
+      </div>
     </section>
     <section class="services">
       <h2>What I do</h2>
@@ -26,7 +25,6 @@
         />
       </section>
     </section>
-    <Footer />
   </div>
 </template>
 
@@ -44,8 +42,6 @@ export default {
 
 <style scoped>
 header {
-  /* background: linear-gradient(248.84deg, #f3f7fb -0.3%, #f3f3f9 102.04%); */
-
   background: rgb(255, 195, 84);
   background: linear-gradient(
     90deg,
@@ -60,31 +56,18 @@ header > .intro {
   padding: 1rem 0;
 }
 
-p {
-  margin: 1rem 0;
-}
-
 section.services {
   padding-bottom: 2rem;
-  background: linear-gradient(248.84deg, #f3f7fb -0.3%, #f3f3f9 102.04%);
-
-  /* background: rgb(255, 195, 84);
-  background: linear-gradient(
-    90deg,
-    rgba(255, 195, 84, 1) 0%,
-    rgba(252, 205, 117, 1) 61%,
-    rgba(255, 216, 144, 1) 100%
-  ); */
-}
-
-section.about {
-  margin: 0 auto;
-  max-width: var(--width);
 }
 
 section.services > h2 {
   text-align: center;
   margin-top: 0;
+}
+
+section.about {
+  margin: 0 auto;
+  max-width: var(--width);
 }
 
 section.cards {
@@ -96,7 +79,7 @@ section.cards {
 }
 
 @media screen and (max-width: 900px) {
-  section {
+  section.cards {
     flex-direction: column;
   }
 }

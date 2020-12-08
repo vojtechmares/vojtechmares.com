@@ -1,16 +1,27 @@
 <template>
-  <div>
+  <app>
+    <Navbar />
     <Nuxt />
-  </div>
+    <Footer />
+  </app>
 </template>
+
+<script>
+import Navbar from '~/components/Navbar.vue'
+import Footer from '~/components/Footer.vue'
+
+export default {
+  components: {
+    Navbar,
+    Footer,
+  },
+}
+</script>
 
 <style>
 :root {
   --width: 42rem;
-  --light: #fff;
-  --dark: #000;
-  --theme: var(--light);
-  --theme-inverse: var(--dark);
+  --text: #000;
 }
 
 html {
@@ -34,11 +45,11 @@ html {
 
 body {
   background: linear-gradient(248.84deg, #f3f7fb -0.3%, #f3f3f9 102.04%);
-  color: var(--theme-inverse);
+  color: var(--text);
 }
 
 a {
-  color: var(--theme-inverse);
+  color: var(--text);
 }
 
 h1,
@@ -56,8 +67,7 @@ h3 {
 
 @media screen and (max-width: 900px) {
   .container {
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin: 0 1rem !important;
   }
 }
 </style>

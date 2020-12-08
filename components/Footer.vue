@@ -6,8 +6,9 @@
           <label class="title">Vojtech Mares</label>
           <ul>
             <li>
-              <label>VAT ID</label><br />CZ06999280<br />
-              <p>I am not VAT registered subject.</p>
+              <label>Company ID</label><br />
+              06999280<br /><br />
+              <p>I am not VAT registered subject</p>
             </li>
           </ul>
         </div>
@@ -23,16 +24,11 @@
         <div class="column">
           <label class="title">Links</label>
           <ul>
-            <li>
-              <a href="https://www.youtube.com/channel/UChFur_NwVSbUozOcF_F2kMg"
-                >GitHub</a
-              >
-            </li>
-            <li>
-              <a href="https://www.youtube.com/channel/UCR9Gcq0CMm6YgTzsDxAxjOQ"
-                >Twitter</a
-              >
-            </li>
+            <!-- <li v-for="link in links.data" :key="link.name">
+              <a href="link.url">{{ link.name }}</a>
+            </li> -->
+            <li><a href="https://github.com/vojtechmares">GitHub</a></li>
+            <li><a href="https://twitter.com/vojtechmares_">Twitter</a></li>
           </ul>
         </div>
         <div class="column custom">
@@ -41,7 +37,7 @@
             <a class="btn" href="mailto:iam@vojtechmares.com">Contact me</a
             ><br /><br />
             <span class="copy">
-              &copy;&nbsp; {{ year }}
+              &copy;&nbsp;{{ year }}
               <nuxt-link to="/">Vojtech Mares</nuxt-link>
             </span>
           </p>
@@ -53,10 +49,19 @@
 
 <script>
 export default {
-  data() {
-    return {
-      year: new Date().getFullYear(),
-    }
+  async asyncData({ $content }) {
+    const links = await $content('links').fetch()
+    return { links }
+  },
+  // data() {
+  //   return {
+  //     year: new Date().getFullYear(),
+  //   }
+  // },
+  computed: {
+    year: () => {
+      return new Date().getFullYear()
+    },
   },
 }
 </script>
@@ -65,11 +70,6 @@ export default {
 footer {
   background: rgb(255, 195, 84);
   padding: 2rem 0;
-  color: black;
-}
-
-footer a {
-  color: black;
 }
 
 footer li {
@@ -98,8 +98,6 @@ footer .title {
 a.btn {
   text-decoration: none;
   padding: 0.5rem 1rem;
-
-  /* background-color: rgb(65, 153, 247); */
   background-color: #000;
   color: #fff;
   border-radius: 30px;
